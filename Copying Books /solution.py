@@ -1,7 +1,5 @@
 import os
 import glob
-import math
-global str
 
 def balanceWorkLoad(no_of_books, book_pages_arr, no_of_scribers):
 	ideal_books_per_scriber = int(no_of_books / no_of_scribers)
